@@ -24,3 +24,23 @@ header{
     color: #1d1d1d;
     border-bottom: 3px solid #c5884f;
 }
+
+#Mobile{
+    display: none;
+}
+.MobileMenu{
+    display: none;
+}
+@media screen and (max-width: 1170px){
+    #lista{
+        display: none;
+    }
+    #Mobile{
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    
+}
