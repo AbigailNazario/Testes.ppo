@@ -1,0 +1,26 @@
+header{
+    width: 100%;
+    padding: 28px 8%;
+}
+
+#navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#lista{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+.item a{
+    text-decoration: none;
+    color: #1d1d1dad;
+    font-weight: 600;
+}
+.item.active a {
+    color: #1d1d1d;
+    border-bottom: 3px solid #c5884f;
+}
