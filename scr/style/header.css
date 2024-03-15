@@ -28,7 +28,7 @@ header{
 #Mobile{
     display: none;
 }
-.MobileMenu{
+#MobileMenu{
     display: none;
 }
 @media screen and (max-width: 1170px){
@@ -42,5 +42,19 @@ header{
         font-size: 1.5rem;
         cursor: pointer;
     }
-    
+    #MobileMenu.active{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #Mobile_lista{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+    }
+    #Mobile_lista .item{
+        list-style: none;
+        text-align: center;
+    }
 }
