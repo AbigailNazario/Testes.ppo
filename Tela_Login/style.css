@@ -70,15 +70,14 @@ body{
     margin: 0.04rem 0;
     padding: 0.3rem 4rem;
     border: 10px;
-    border-width: 7rem;
-    border-color: rgb(88, 82, 82);
     background-color: transparent;
     text-align: center;
+    outline: 1px solid rgb(139, 137, 137);
     
 }
 /*Quando vai colocar o conteudo fica dessa cor*/
 .input-box input:hover{
-    background-color: whitesmoke;
+    background-color: rgb(202, 195, 195);
 }
 /*Para quando vai colocar conteudo no box a margem fica dessa cor*/
 .input-box input:focus-visible{
@@ -88,10 +87,10 @@ body{
 .input-box label{
     font-size: 0.8rem;
     font-weight: 800;
-    color: #000000c0;
+    color:black;
 }
 .input-box input::placeholder{
-    color: #000000be;
+    color: rgb(139, 137, 137);
 }
 /*Botão de confirmação*/
 .botao_confirmar button{
