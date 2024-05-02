@@ -11,7 +11,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(156, 106, 65);
+    background: rgb(10, 10, 9);
     
 }
 
@@ -44,6 +44,7 @@ body{
     flex-direction: column;
     align-items: center;
     margin-bottom: 1px;
+    margin-left: 3rem;
 }
 .titulo h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -53,7 +54,7 @@ body{
 .titulo h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: aliceblue;
-    line-height: 1cm;
+    margin: 0 0 2rem 0;
     font-size: 1rem;
     font-weight: 300;
 }
@@ -73,7 +74,7 @@ body{
     background-color: transparent;
     text-align: center;
     outline: 1px solid rgb(139, 137, 137);
-    
+    margin-top: 1rem;
 }
 /*Quando vai colocar o conteudo fica dessa cor*/
 .input-box input:hover{
@@ -99,6 +100,7 @@ body{
     border-color: black;
     background-color: transparent;
     cursor: pointer;
+    margin-top: 1rem;
 }
 .botao_confirmar button:hover{
     background-color: transparent;
