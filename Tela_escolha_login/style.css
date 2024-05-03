@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(10, 10, 9);
+    
+}
+
+/*O conteiner delimita quanto da tela será usada, ou seja a tela inteira*/
+.conteiner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+/*A imagem vai ocupar metade da tela e ficará no centro*/
+.imagem{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(36, 68, 47);
+    padding: 1rem;
+}
+/*A escolha vai ocupar metade da tela e ficará no centro*/
+.escolha{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(36, 68, 47);
+   
+}
+/*Nomes de cima*/
+.titulo{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1px;
+   
+}
+.titulo h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4rem;
+    
+    color: aliceblue;
+}
+.titulo h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    margin: 0 0 2rem 1.3rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.img {
+    display: flex;
+    justify-content: space-between;
+}
+/*Botões das opções*/
+.botão {
+    display:inline-block ;
+
+}
+
+.botão button{
+    width: 100%;
+    border: 1px;
+    border-color: black;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 0.39rem 2rem;
+}
+.botão button:hover {
+    background-color: transparent;
+}
+.botão button:hover a {
+    color: black;
+}
+.botão button a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*Botão para ir se cadastrar*/
+
+.cadastre-se{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.cadastre-se button{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    padding: 0.39rem 0.4rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cadastre-se button:hover{
+    background-color: transparent;
+}
+.cadastre-se button a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.75rem;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cadastre-se h3{
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 300;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0.39rem;
+}
+
+.cadastre-se button:hover a {
+    color: black;
+}
+
