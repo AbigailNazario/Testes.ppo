@@ -40,24 +40,27 @@ body{
     background-color: rgb(36, 68, 47);
     padding: 3rem;
 }
-/*Nomes de cima*/
+.envelope{
+    width: 500px;
+    background: rgb(18, 36, 18);
+    border: 2px solid rgba(255 255 255 .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: black;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+/*Nome de cima*/
 .titulo{
     flex-direction: column;
     align-items: center;
     margin-bottom: 1px;
-    margin-left: 3.5rem;
+    margin-left: 3rem;
 }
 .titulo h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
     color: aliceblue;
-}
-.titulo h3{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: aliceblue;
-    margin: 0 0 2rem 0;
-    font-size: 1rem;
-    font-weight: 300;
 }
 
 /*Para afastamento do box com outro*/
@@ -69,18 +72,19 @@ body{
 }
 /*Tamanho do box*/
 .input-box input{
-    margin: 0.04rem 0;
-    padding: 0.3rem 4rem;
-    border: 10px;
+    margin: 0.4rem 4;
+    padding: 0.3rem 2rem;
+    border: 1px;
     background-color: transparent;
     text-align: center;
-    outline: 1px solid rgb(139, 137, 137);
-    margin-top: 1rem;
+    outline: 1px solid rgb(194, 188, 188);
+    margin-top: 0.7rem;
 }
 /*Quando vai colocar o conteudo fica dessa cor*/
 .input-box input:hover{
-    background-color: rgb(202, 195, 195);
+    background-color: rgb(136, 123, 123);
 }
+
 /*Para quando vai colocar conteudo no box a margem fica dessa cor*/
 .input-box input:focus-visible{
     outline: 1px solid black;
@@ -89,10 +93,14 @@ body{
 .input-box label{
     font-size: 0.8rem;
     font-weight: 800;
-    color:black;
+    color:rgb(247, 234, 234);
 }
 .input-box input::placeholder{
-    color: rgb(139, 137, 137);
+    color: rgb(170, 162, 162);
+}
+/*Distanciamento do primeiro input do nome CADASTRA-SE*/
+.input-box #nome{
+    margin-top: 2rem;
 }
 /*Botão de confirmação*/
 .botao_confirmar button{
@@ -111,13 +119,13 @@ body{
 }
 .botao_confirmar button a {
     text-decoration: none;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     font-weight: 300;
     color: whitesmoke;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/*Botão de Esqueceu senha*/
-.botao_esqueceuS button{
+/*Botão de Voltar para o Login*/
+.botao_voltar button{
     width: 100%;
     border: 1px;
     border-color: black;
@@ -125,15 +133,15 @@ body{
     cursor: pointer;
     margin-top: 0.5rem;
 }
-.botao_esqueceuS button:hover{
+.botao_voltar button:hover{
     background-color: transparent;
 }
-.botao_esqueceuS button:hover a{
+.botao_voltar button:hover a{
     color: black;
 }
-.botao_esqueceuS button a {
+.botao_voltar button a {
     text-decoration: none;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     font-weight: 300;
     color: whitesmoke;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
