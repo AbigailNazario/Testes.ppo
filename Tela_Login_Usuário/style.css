@@ -75,7 +75,7 @@ body{
     background-color: transparent;
     text-align: center;
     outline: 1px solid rgb(139, 137, 137);
-    margin-top: 1rem;
+    margin-top: 0.7rem;
 }
 /*Quando vai colocar o conteudo fica dessa cor*/
 .input-box input:hover{
