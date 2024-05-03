@@ -14,7 +14,6 @@ body{
     background: rgb(10, 10, 9);
     
 }
-
 /*O conteiner delimita quanto da tela será usada, ou seja a tela inteira*/
 .conteiner{
     width: 100%;
@@ -46,18 +45,17 @@ body{
     flex-direction: column;
     align-items: center;
     margin-bottom: 1px;
-   
+    margin-left: 3.5rem;
 }
 .titulo h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 4rem;
-    margin-left: 3.5rem;
     color: aliceblue;
 }
 .titulo h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: aliceblue;
-    margin: 0 0 2rem 1.3rem;
+    margin: 0 0 2rem 0;
     font-size: 1rem;
     font-weight: 300;
 }
@@ -140,4 +138,3 @@ body{
     color: whitesmoke;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-

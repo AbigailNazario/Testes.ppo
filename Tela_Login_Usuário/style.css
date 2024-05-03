@@ -103,8 +103,11 @@ body{
     cursor: pointer;
     margin-top: 1rem;
 }
-.botao_confirmar button:hover{
+.botao_confirmar button:hover {
     background-color: transparent;
+}
+.botao_confirmar button:hover a {
+    color: black;
 }
 .botao_confirmar button a {
     text-decoration: none;
@@ -113,4 +116,25 @@ body{
     color: whitesmoke;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+/*Botão de Esqueceu senha*/
+.botao_esqueceuS button{
+    width: 100%;
+    border: 1px;
+    border-color: black;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+.botao_esqueceuS button:hover{
+    background-color: transparent;
+}
+.botao_esqueceuS button:hover a{
+    color: black;
+}
+.botao_esqueceuS button a {
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 300;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
