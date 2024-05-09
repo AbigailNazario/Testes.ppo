@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Mrs+Saint+Delafield&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -25,12 +26,48 @@ body{
 /*A imagem vai ocupar metade da tela e ficará no centro*/
 .imagem{
     width: 50%;
-    display: flex;
+    display: relative;
     justify-content: center;
-    align-items: center;
-    background-color: rgb(36, 68, 47);
+    background-color: #4e5b4b;
     padding: 1rem;
 }
+.imagem img{
+    margin: 4rem 8rem 4rem;
+    align-items: center;
+}
+.imagem .nomes{
+    margin-top: -4rem;
+    text-align: center;
+    color: #e6e6e6;
+}
+.nomes h1{
+    font-size: 3rem;
+    font-family: "Cinzel", serif;
+    font-weight: 700;
+}
+.nomes h2 {
+    font-size: 3rem;
+    font-family: "Mrs Saint Delafield", cursive;
+    margin-left: 13rem;
+    font-weight: 400;
+    text-align: center;
+    width: 6.71ch;
+    white-space: nowrap;
+    overflow: hidden ;
+    animation: typing 3s steps(11), blinking 2s;
+}
+@keyframes typing{
+    from {
+        width: 0;
+    }
+}
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
 /*A escolha vai ocupar metade da tela e ficará no centro*/
 .escolha{
     width: 50%;
@@ -38,7 +75,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(36, 68, 47);
+    background-color: #4e5b4b;
    
 }
 /*Nomes de cima*/
@@ -49,28 +86,23 @@ body{
    
 }
 .titulo h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 4rem;
-    
-    color: aliceblue;
+    color: #e6e6e6;
 }
 .titulo h3{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: aliceblue;
-    margin: 0 0 2rem 1.3rem;
-    font-size: 1rem;
+    color: #e6e6e6;
+    margin: 0 0 2rem 2.3rem;
+    font-size: 0.73rem;
     font-weight: 300;
 }
-.img {
-    display: flex;
-    justify-content: space-between;
+/*Espassamento dos icons*/
+.img .img1{
+    margin-left: 1.2rem;
+}
+.img .img2{
+    margin-left: 2.4rem;
 }
 /*Botões das opções*/
-.botão {
-    display:inline-block ;
-
-}
-
 .botão button{
     width: 100%;
     border: 1px;
@@ -90,8 +122,8 @@ body{
     text-decoration: none;
     font-size: 0.9rem;
     font-weight: 500;
-    color: whitesmoke;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #e6e6e6;
+   
 }
 /*Botão para ir se cadastrar*/
 
@@ -117,15 +149,14 @@ body{
     text-decoration: none;
     font-weight: 500;
     font-size: 0.75rem;
-    color: whitesmoke;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #e6e6e6;
+ 
 }
 .cadastre-se h3{
     text-decoration: none;
     font-size: 0.75rem;
     font-weight: 300;
-    color: whitesmoke;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #e6e6e6;
     margin-top: 0.39rem;
 }
 
