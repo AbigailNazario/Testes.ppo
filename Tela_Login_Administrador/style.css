@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Mrs+Saint+Delafield&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -25,11 +26,45 @@ body{
 /*A imagem vai ocupar metade da tela e ficará no centro*/
 .imagem{
     width: 50%;
-    display: flex;
+    display: relative;
     justify-content: center;
-    align-items: center;
-    background-color: rgb(36, 68, 47);
+    background-color: #4e5b4b;
     padding: 1rem;
+}
+.imagem img{
+    margin: 4rem 8rem 4rem;
+    align-items: center;
+}
+.imagem .nomes{
+    margin-top: -4rem;
+    text-align: center;
+    color: #e6e6e6;
+}
+.nomes h1{
+    font-size: 3rem;
+    font-family: "Cinzel", serif;
+    font-weight: 700;
+}
+.nomes h2 {
+    font-size: 3rem;
+    font-family: "Mrs Saint Delafield", cursive;
+    margin-left: 13rem;
+    font-weight: 400;
+    text-align: center;
+    width: 6.71ch;
+    white-space: nowrap;
+    overflow: hidden ;
+    animation: typing 3s steps(11), blinking 2s;
+}
+@keyframes typing{
+    from {
+        width: 0;
+    }
+}
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
 }
 /*O formulário vai ocupar metade da tela e ficará no centro*/
 .formulario{
@@ -38,7 +73,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(36, 68, 47);
+    background-color: #4e5b4b;
     padding: 3rem;
 }
 /*Nomes de cima*/
@@ -49,14 +84,12 @@ body{
    
 }
 .titulo h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 4rem;
-    margin-left: 3.5rem;
-    color: aliceblue;
+    margin-left: 2.7rem;
+    color: #e6e6e6;
 }
 .titulo h3{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: aliceblue;
+    color: #e6e6e6;
     margin: 0 0 2rem 1.3rem;
     font-size: 1rem;
     font-weight: 300;
@@ -76,12 +109,12 @@ body{
     border: 10px;
     background-color: transparent;
     text-align: center;
-    outline: 1px solid rgb(139, 137, 137);
+    outline: 1px solid #e6e6e6;
     margin-top: 0.7rem;
 }
 /*Quando vai colocar o conteudo fica dessa cor*/
 .input-box input:hover{
-    background-color: rgb(202, 195, 195);
+    background-color: #ada9a9;
 }
 /*Para quando vai colocar conteudo no box a margem fica dessa cor*/
 .input-box input:focus-visible{
@@ -94,7 +127,7 @@ body{
     color:black;
 }
 .input-box input::placeholder{
-    color: rgb(139, 137, 137);
+    color: #e6e6e6;
 }
 /*Botão de confirmação*/
 .botao_confirmar button{
@@ -115,8 +148,7 @@ body{
     text-decoration: none;
     font-size: 0.75rem;
     font-weight: 300;
-    color: whitesmoke;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #e6e6e6;
 }
 /*Botão de Esqueceu senha*/
 .botao_esqueceuS button{
@@ -137,7 +169,6 @@ body{
     text-decoration: none;
     font-size: 0.75rem;
     font-weight: 300;
-    color: whitesmoke;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #e6e6e6;
 }
 
