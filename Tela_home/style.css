@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 900vh;
+}
+.menu-lateral{
+    width: 80px;
+    height: 100%;
+   
+    padding: 6px 0 40px 1%;
+    box-shadow: 3px 0 0 black;
+    position: fixed;
+    top: 6rem;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+.menu-lateral:hover{
+    width: 300px;
+}
+ul{
+    
+    list-style-type: none;
+    margin-top: 0.7rem;
+}
+.item-menu a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 4%;
+    display: flex;
+    line-height: 58px;
+}
+.item-menu a .txt{
+    margin-left: 20px;
+}
+.item-menu a .icon {
+    font-size: -20rem;
+}
+.item-menu:hover{
+    background: #4e5b4b;
+}
+.item-menu{
+    transition: .3s;
+}

@@ -111,6 +111,7 @@ body{
     cursor: pointer;
     margin-top: 1rem;
     padding: 0.39rem 2rem;
+    margin-left: -1rem;
 }
 .botão button:hover {
     background-color: transparent;
@@ -125,6 +126,7 @@ body{
     color: #e6e6e6;
    
 }
+
 /*Botão para ir se cadastrar*/
 
 .cadastre-se{
