@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Mrs+Saint+Delafield&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,19 +6,42 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    height: 900vh;
+    height: 100vh;
+    background-color: #e6e6e6;
+}
+.logo {
+    position: fixed;
+    margin: 1rem 2rem;
+}
+.logo img{
+    float: left;
+}
+.texto{
+    margin-top: 0.5rem;
+    float: right;
+}
+.texto h2{
+    font-family: "Cinzel", serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.texto h3{
+    font-family: "Mrs Saint Delafield", cursive;
+    font-size: 1.5rem;
+    margin-left: 2rem;
 }
 .menu-lateral{
-    width: 80px;
+    width: 70px;
     height: 100%;
    
-    padding: 6px 0 40px 1%;
-    box-shadow: 3px 0 0 black;
+    padding: 10px 0 40px 0.1%;
+    box-shadow: 3px 0 0 #2b422f;
     position: fixed;
-    top: 6rem;
-    left: 0;
+    top: 7rem;
+    left: 8;
     overflow: hidden;
     transition: .2s;
+  
 }
 .menu-lateral:hover{
     width: 300px;
@@ -25,7 +49,7 @@ body{
 ul{
     
     list-style-type: none;
-    margin-top: 0.7rem;
+    margin-top: 0.4rem;
 }
 .item-menu a{
     color: black;
@@ -34,9 +58,16 @@ ul{
     padding: 10px 4%;
     display: flex;
     line-height: 58px;
+    margin-top: 5px;
 }
 .item-menu a .txt{
+    margin-left: 60px;
+    transition: .30s;
+    opacity: 0;
+}
+.menu-lateral:hover .txt{
     margin-left: 20px;
+    opacity: 1;
 }
 .item-menu a .icon {
     font-size: -20rem;
@@ -46,4 +77,7 @@ ul{
 }
 .item-menu{
     transition: .3s;
+}
+.ativo{
+    background-color: #4e5b4b;
 }
