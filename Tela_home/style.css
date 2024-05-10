@@ -9,6 +9,7 @@ body{
     height: 100vh;
     background-color: #e6e6e6;
 }
+/*Codificando a logo - parte de cima do site*/
 .logo {
     position: fixed;
     margin: 1rem 2rem;
@@ -30,10 +31,10 @@ body{
     font-size: 1.5rem;
     margin-left: 2rem;
 }
+/*Ajustando altura, largura, margem e tempo de trasição do menu*/
 .menu-lateral{
     width: 70px;
     height: 100%;
-   
     padding: 10px 0 40px 0.1%;
     box-shadow: 3px 0 0 #2b422f;
     position: fixed;
@@ -43,9 +44,11 @@ body{
     transition: .2s;
   
 }
+/*Almento do menu quando passar o mouse em cima*/
 .menu-lateral:hover{
     width: 300px;
 }
+/*ajustes dos estilos dos icones e nome*/
 ul{
     
     list-style-type: none;

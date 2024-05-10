@@ -54,7 +54,7 @@ body{
     width: 6.71ch;
     white-space: nowrap;
     overflow: hidden ;
-    animation: typing 3s steps(11), blinking 2s;
+    animation: typing 3s steps(11), blinking 0.1s;
 }
 @keyframes typing{
     from {
@@ -157,7 +157,7 @@ body{
     border-color: black;
     background-color: transparent;
     cursor: pointer;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
 .botao_esqueceuS button:hover{
     background-color: transparent;

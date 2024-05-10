@@ -54,7 +54,7 @@ body{
     width: 6.71ch;
     white-space: nowrap;
     overflow: hidden ;
-    animation: typing 3s steps(11), blinking 2s;
+    animation: typing 3s steps(11), blinking 0.1s;
 }
 @keyframes typing{
     from {
