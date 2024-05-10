@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Mrs+Saint+Delafield&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #e6e6e6;
+}
+/*Codificando a logo - parte de cima do site*/
+.logo {
+    position: fixed;
+    margin: 1rem 2rem;
+}
+.logo img{
+    float: left;
+}
+.texto{
+    margin-top: 0.5rem;
+    float: right;
+}
+.texto h2{
+    font-family: "Cinzel", serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.texto h3{
+    font-family: "Mrs Saint Delafield", cursive;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+/*Ajustando altura, largura, margem e tempo de trasição do menu*/
+.menu-lateral{
+    width: 70px;
+    height: 100%;
+    padding: 10px 0 40px 0.1%;
+    box-shadow: 3px 0 0 #2b422f;
+    position: fixed;
+    top: 7rem;
+    left: 8;
+    overflow: hidden;
+    transition: .2s;
+  
+}
+/*Almento do menu quando passar o mouse em cima*/
+.menu-lateral:hover{
+    width: 300px;
+}
+/*ajustes dos estilos dos icones e nome*/
+ul{
+    
+    list-style-type: none;
+    margin-top: 0.4rem;
+}
+.item-menu a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 4%;
+    display: flex;
+    line-height: 58px;
+  
+}
+.item-menu a .txt{
+    margin-left: 60px;
+    transition: .30s;
+    opacity: 0;
+}
+.menu-lateral:hover .txt{
+    margin-left: 20px;
+    opacity: 1;
+}
+.item-menu a .icon {
+    font-size: -20rem;
+}
+.item-menu:hover{
+    background: #4e5b4b;
+}
+.item-menu{
+    transition: .3s;
+}
+.ativo{
+    background-color: #4e5b4b;
+}
+.novaNo{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 8%;
+}
+.novaNo button{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #647852;
+    padding: 0.39rem 0.4rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.novaNo button a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.75rem;
+    color: black;
+ 
+}
+.novaNo button:hover{
+    background-color: #7b9168;
+}
+.novaNo button a:hover{
+    color: #e6e6e6;
+}
