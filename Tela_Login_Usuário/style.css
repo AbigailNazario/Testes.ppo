@@ -136,7 +136,7 @@ body{
     border-color: black;
     background-color: transparent;
     cursor: pointer;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 .botao_confirmar button:hover {
     background-color: transparent;
@@ -157,7 +157,7 @@ body{
     border-color: black;
     background-color: transparent;
     cursor: pointer;
-    margin-top: 1rem;
+    margin-top: 1.3rem;
 }
 .botao_esqueceuS button:hover{
     background-color: transparent;
