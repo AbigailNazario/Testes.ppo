@@ -31,6 +31,12 @@ body{
     font-size: 1.5rem;
     margin-left: 2rem;
 }
+.usuario{
+    position: absolute;
+    width: max-content;
+    margin-left: 86.5rem;
+    margin-top: 1.5rem;
+}
 /*Ajustando altura, largura, margem e tempo de trasição do menu*/
 .menu-lateral{
     width: 70px;
@@ -41,7 +47,7 @@ body{
     top: 7rem;
     left: 8;
     overflow: hidden;
-    transition: .2s;
+    transition: .4s;
   
 }
 /*Almento do menu quando passar o mouse em cima*/
@@ -79,7 +85,7 @@ ul{
     background: #4e5b4b;
 }
 .item-menu{
-    transition: .3s;
+    transition: .2s;
 }
 .ativo{
     background-color: #4e5b4b;
@@ -87,9 +93,10 @@ ul{
 .novaNo{
     margin-bottom: 3rem;
     display: flex;
-    justify-content: space-between;
     position: absolute;
-    left: 8%;
+    justify-content: space-between;
+    left: 8rem;
+    top: 100rem
 }
 .novaNo button{
     display: flex;

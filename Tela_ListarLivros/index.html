@@ -21,7 +21,7 @@
     </div>
     <nav class="menu-lateral">
           <ul>
-            <li class="item-menu ativo">
+            <li class="item-menu">
                 <a href="#">
                     <span class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB9UlEQVR4nO3Wz6tMcRjH8RduCCldSkLpLu5SoqQkbCg7Gws73fwJ7uIu78a/YGEjxYaVDaGukV8LbKyUkPxKSpS48tWp52oac82ZMWfmTL7veuo05/t9ns/nfJ/zzCFTiq24ietxPZLsx1ukiA84ZIRYghn8CANXIlL8NhNras1aXArRP3EaS0P4dIu5dWrKdjxtaqPDbdYcwLtY8wK71Izj+BICH2LbX9Zuwb1Y+xUnmu6lRaJyxqJ9Fgqew6oS+1bgTNO+4nr5sIxsxp2mJzvVQ46p2FvkuNtGeOVG9uFNFHmJ3f+QaweeLXICqSojxfQ5hfkocBXjfcg7HrlSxHTUqsRI62idxbI+5i9yzUbuosblKoxM4kkk/YSjquMIPlbxsh/D50j4GBOqZyJqLRgpNPRttJ7HaoNjJc62GdFdsQE3IsF8vHzD4iS+hZYGNpXduBevY+Mr7DF8duJ5aHqPg2Xcf48Nc9ioPqzHtZYu+eMreg0utkyK4h2pG2MtGi+E9t88aBqtA/tQ65HUovV+883beBT/F6NiZDI0NzotrCuprL5sZECkfCL/24mkHqPXOh3JRnT3hGt/ImXJRuQTKUdurS5JubVKklurS1JurZLk1uqSlFurJLm1uiTl1hr11ko1j440aiAydYhbnW1kMvrBL/A6qXQvVsG5AAAAAElFTkSuQmCC"></span>
                     <span class="txt">Home</span>
@@ -29,7 +29,7 @@
             </li>
         </ul>
         <ul>
-            <li class="item-menu">
+            <li class="item-menu ativo">
                 <a href="#">
                     <span class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABJklEQVR4nO2aMUoDURCGvyIQJBEULAKeIDfwCLESvIc2Fp7BO+UABlLYWVgIL0dQG5tfFqfYRpCXzL6dMB9M+R7v2/n3FTsLSTymwB3wDHwCalxVXAIvIzi89hGZ9iRegRvglHaoVuS+J3FGe1QrsrGFXSeILPJhC1vG6SAie90SUURWwM7pViq2/yAixfmKLUOJeMZOf+ydIsqOBIpWOZaXfeUoU4a8flugFCE74oIyWmS0XFBGi4yWC8pokdFyQRktMlouKKNFRssFZbT4fQpz4BHYAl/OX0/0j6pu5fsIDq9DiMgGodfABQGR1RqYEBhZLQnOt4l0093QvJnIFcF5MpFu1n5CYM57c8Ju1n4LLAjKshexsVQ1M+DBfiAI+1NNwsD8ADn+3S5IoeVoAAAAAElFTkSuQmCC"></span>
                     <span class="txt">Livros</span>
@@ -53,11 +53,28 @@
             </li>
         </ul>
     </nav>
+    <div> 
+        <div class="barra_procura">
+            <h1>Livros</h1>
+            <div class="barra">
+                <input class="procura" type="text" placeholder="digite aqui..." onkeyup="procurar()">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA6klEQVR4nNXTO0pDQRSA4Q8bGyu7pLIKYmdKtyBuwlwUN6D42IIuI32agG0gKVKolZ2CrkOiDBwsLklmbrgW/tXAHP45r+E/s4cBrnCO3qaiXQyxwAdmeMM3Rug0lb3iBUe1u8OQp0e6pcJhyHZW3G9jgsfSni2WZFZnP+L6OeEAnyUv4xmXuaDr6FEJaTgPuaAzvBcK57jJBfViNdI0c73+Kuj1bymzmOYytjDGVCGd2LNJTLOe2TiquNOAbuxZWo2nyHoeZU5Dls6VhvTjH9/jttazalPpOk5DeqFFqpCetCk9xkGbwr/lB+6TMd6i6uC0AAAAAElFTkSuQmCC">
+        </div>
+        
+    </div> <div class="linha"></div></div>
     
-
-    <div class="novaNo">
-        <button><a href="#">Clique aqui para adicionar uma nova notícia</a></button>
+  
+    <div class="conteiner">
+        <nav class="listagem_livros">
+            <ul class="listagem">
+                <li class="livros"><a href="#">Todos</a></li>
+                <li class="livros"><a href="#">Autor</a></li>
+                <li class="livros"><a href="#">Gênero</a></li>
+                <li class="livros"><a href="#">Editora</a></li>
+            </ul>
+        </nav>
     </div>
+        
     
 </body>
 </html>
