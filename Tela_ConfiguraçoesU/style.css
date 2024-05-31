@@ -33,13 +33,7 @@ body{
     font-size: 1.5rem;
     margin-left: 2rem;
 }
-/*ajustar posição do icone da foto de usuário*/
-.usuario{
-    position: absolute;
-    width: max-content;
-    margin-left: 86.5rem;
-    margin-top:1.5rem;
-}
+
 /*Ajustando altura, largura, margem e tempo de trasição do menu*/
 .menu-lateral{
     width: 70px;
