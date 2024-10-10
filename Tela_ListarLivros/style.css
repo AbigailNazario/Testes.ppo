@@ -45,7 +45,7 @@ body{
     width: 70px;
     height: 100%;
     padding: 10px 0 40px 0.1%;
-    box-shadow: 3px 0 0 #2b422f;
+    box-shadow: 3px 0 0 #647852;
     position: fixed;
     top: 7rem;
     left: 8;
@@ -56,6 +56,10 @@ body{
 /*Almento do menu quando passar o mouse em cima*/
 .menu-lateral:hover{
     width: 300px;
+}
+.menu-lateral:hover .barra_procura hr{
+    width: 60rem;
+    margin-left: 5rem;
 }
 /*ajustes dos estilos dos icones e nome*/
 ul{
@@ -128,13 +132,15 @@ ul{
     line-height: 50px;
 }
 /*Tracejado acima do menu de opçoes de listagem de livros*/
-.linha{
+hr{
     content: ' ';
     display: block;
-    height: 5px;
-    background-color: black;
-    width: 100%;
-    margin-left: 26rem;
+    height: 3px;
+    margin-top: 7.6rem;
+    background-color: #647852;
+    width: 80rem;
+    margin-left: -52rem;
+  
 }
 /*listagem de livros - opções para escolha de como listar*/
 .conteiner{
@@ -166,5 +172,5 @@ ul{
     margin-left: 1rem;
 }
 .livros a:hover{
-    background-color: #4e5b4b;
+    background-color: #647852;
 }
