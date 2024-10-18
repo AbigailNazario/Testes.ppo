@@ -28,7 +28,7 @@ body{
     width: 50%;
     display: relative;
     justify-content: center;
-    background-color: #4e5b4b;
+    background-color: #2b422f;
     padding: 1rem;
 }
 .imagem img{
@@ -76,7 +76,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #4e5b4b;
+    background-color: #2b422f;
    
 }
 /*Nomes de cima*/
