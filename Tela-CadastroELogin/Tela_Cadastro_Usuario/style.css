@@ -81,18 +81,18 @@ body{
 }
 /*Quando vai colocar o conteudo fica dessa cor*/
 .input-box input:hover{
-    background-color: #c2bcbc;
+    background-color: #a8c4aa;
 }
 
 /*Para quando vai colocar conteudo no box a margem fica dessa cor*/
 .input-box input:focus-visible{
-    outline: 1px solid black;
+    outline: 1px solid #e6e6e6;
 }
 /*Letra*/
 .input-box label{
     font-size: 0.8rem;
     font-weight: 800;
-    color:rgb(247, 234, 234);
+    color:#a8c4aa;
 }
 .input-box input::placeholder{
     color: #e6e6e6;
