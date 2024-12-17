@@ -27,7 +27,7 @@ body{
     width: 50%;
     display: relative;
     justify-content: center;
-    background-color: #4e5b4b;
+    background-color: #2b422f;
     padding: 1rem;
 }
 .imagem img{
@@ -48,24 +48,11 @@ body{
 .nomes h2 {
     font-size: 3rem;
     font-family: "Mrs Saint Delafield", cursive;
-    margin-left: 16rem;
+    margin-left: -2rem;
     font-weight: 400;
     text-align: center;
-    width: 6.71ch;
-    white-space: nowrap;
-    overflow: hidden ;
-    animation: typing 3s steps(11), blinking 0.1s;
 }
-@keyframes typing{
-    from {
-        width: 0;
-    }
-}
-@keyframes blinking {
-    50% {
-        border-color: transparent;
-    }
-}
+
 /*O formulário vai ocupar metade da tela e ficará no centro*/
 .formulario{
     width: 50%;
@@ -73,7 +60,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #4e5b4b;
+    background-color: #2b422f;
     padding: 3rem;
 }
 /*Nomes de cima*/
@@ -95,7 +82,13 @@ body{
     margin-left: 3.5rem;
     font-weight: 300;
 }
-
+.titulo h4{
+    color: #e6e6e6;
+    margin: 0 0 1rem -0.2rem;
+    font-size: 1rem;
+    margin-left: 3.5rem;
+    font-weight: 300;
+}
 /*Para afastamento do box com outro*/
 .input-box{
     display: flex;
